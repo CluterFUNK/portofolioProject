@@ -141,10 +141,10 @@ opacity: .8;
   
   @media screen and (max-width: 750px) {
     .sectiunea1 h1 {
-        font-size: 38px;
+        font-size: 36px;
       }
      .sectiunea1 p{
-  font-size: 28px;
+  font-size: 26px;
       }
 
   }
