@@ -55,7 +55,7 @@ nav ul li a:hover{
     margin-bottom: 4px;
 }
 
-@media all and (max-width:480px){
+@media all and (max-width:977px){
     nav{
         flex-direction: column;
     }
