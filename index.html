@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portofolio</title>
+
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <nav>
+
+        <img class="logo" src="KodreanuDynamics.svg" width="300px">
+
+        <ul id="navList">
+            <li><a href="#s1">Acasa</a></li>
+            <li><a href="#s2">Despre</a></li>
+            <li><a href="#">Proiecte</a></li>
+            <li><a href="#">Contacte</a></li>
+        </ul>
+        <div class="menu" id="toggle-buttom">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <!--NAVBAR-->
+    <!--SECTIUNEA 1-->
+    <section id="s1" class="sectiunea1">
+        <div class="container">
+            <h1>Codreanu Alexandru</h1>
+            <p>student web-developer</p>
+        </div>
+
+    </section>
+    <!--SECTIUNEA 1-->
+
+    <section id="s2" class="sectiunea2">
+        <h1>Codreanu Alexandru</h1>
+        <p>student web-developer</p>
+    </section>
+</body>
+
+<!--TOGGLER-->
+<script>
+    const toggleButton = document.getElementById('toggle-buttom');
+    const navList = document.getElementById('navList');
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    })
+</script>
+<!--TOGGLER-->
+
+</html>
