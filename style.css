@@ -2,7 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
+html {
+    scroll-behavior: smooth;
+  }
+  :root{
+      --primarycolor:white;
+      --primaryshadow:-1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
 
 /*nav bar code*/
 nav{
@@ -120,12 +131,14 @@ opacity: .8;
 }
 
 .sectiunea1 h1{
-    color: white;
+    color: var(--primarycolor);
+    text-shadow: var(--primaryshadow);
 
 }
 
 .sectiunea1 p{
-    color: white;
+    color: var(--primarycolor);
+    text-shadow: var(--primaryshadow);
  
    
 }
@@ -141,20 +154,223 @@ opacity: .8;
   
   @media screen and (max-width: 750px) {
     .sectiunea1 h1 {
-        font-size: 28px;
+        font-size: 33px;
       }
      .sectiunea1 p{
-  font-size: 19px;
+  font-size: 23px;
       }
 
   }
   
- 
+ /*sectiunea 2*/
 
 
     .sectiunea2{
-       padding: 100px;
-        
-        background-color: grey;
-        height: 975px;
+     display: flex;
+       background: url('fundal2.png') no-repeat center center/cover;
+        height: 1069px;
+       
+        flex-wrap: wrap;
     }
+
+    .sectiunea2 .box1{
+color: var(--primarycolor);
+text-shadow:var(--primaryshadow);
+
+    width: 100%;
+  height: 200px;
+  padding-top: 52px;
+  display: flex;
+ justify-content: center;
+
+ font-size: 80px;
+    }
+
+
+    
+.content{
+display: flex;
+padding-bottom: 300px;
+margin: auto;
+flex-wrap: wrap;
+
+
+}
+
+.content .box2,.box4{
+    font-size: 1.5rem;
+    width: 530px;
+    height: 340px;
+    padding:20px 50px; 
+    text-align: center;
+    color:var(--primarycolor);
+text-shadow: var(--primaryshadow);
+}
+
+.content .box3{
+    background-color: gray;
+    height: 340px;
+    padding-top: 30px;
+
+}
+
+/*.content .box4{
+    font-size: 1.5rem;
+    width: 530px;
+    height: 340px;
+    padding:20px 50px;
+    text-align: center;
+    color:var(--primarycolor);
+text-shadow: var(--primaryshadow);
+}*/
+
+/*sectiunea despre responsive queery*/
+
+/*@media screen and (min-width: 1220) {
+   
+    
+   }
+*/
+@media screen and (min-width: 701px) {
+    .sectiunea2 .box1 {
+       font-size: 80px;
+     }
+    
+   }
+   
+   @media screen and (max-width: 700px) {
+     .sectiunea2 .box1{
+         font-size: 60px;
+       }
+       .sectiunea2 .box2{
+        font-size: 1rem;
+        width: 100vw;
+        height: 240px;
+        padding:10px 40px;
+       
+     }
+   }
+
+   @media screen and (max-width: 500px) {
+    .sectiunea2 .box1{
+        font-size: 50px;
+      }
+    
+  }
+   
+  @media screen and (max-width:415px){
+    .sectiunea2 .box1{
+        font-size: 40px;
+      }
+  }
+  @media screen and (max-width:350px){
+    .sectiunea2 .box1{
+        font-size: 30px;
+      }
+  }
+
+  @media screen and (max-width: 1400px) {
+   
+      .sectiunea2 .box2,.box4{
+       font-size: 1.8rem;
+       width: 100vw;
+       height: 240px;
+       padding:10px 40px;
+     
+    }
+
+    .sectiunea2 .box3{
+        margin: auto;
+        width: 300px;
+    }
+
+   
+  }
+
+  @media screen and (max-width: 1001px) {
+   
+    .sectiunea2 .box2,.box4{
+     font-size: 1.5rem;
+     width: 100vw;
+     height: 240px;
+     padding:10px 40px;
+   
+  }
+
+  .sectiunea2 .box3{
+      margin: auto;
+      width: 300px;
+  }
+
+}
+
+
+@media screen and (max-width: 735px) {
+   
+    .sectiunea2 .box2,.box4{
+     font-size: 1.4rem;
+     width: 100vw;
+     height: 240px;
+     padding:10px 40px;
+  
+  }
+
+  .sectiunea2 .box3{
+      margin: auto;
+      width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 590px) {
+   
+    .sectiunea2 .box2,.box4{
+     font-size: 1.2rem;
+     width: 100vw;
+     height: 240px;
+     padding:10px 40px;
+    
+  }
+
+  .sectiunea2 .box3{
+      margin: auto;
+      width: 300px;
+  }
+
+
+}
+
+@media screen and (max-width: 430px) {
+   
+    .sectiunea2 .box2,.box4{
+     font-size: 1.1rem;
+     width: 100vw;
+     height: 270px;
+     padding:10px 40px;
+    
+  }
+
+  .sectiunea2 .box3{
+      margin: auto;
+      width: 300px;
+  }
+
+ 
+}
+@media screen and (max-width: 360px) {
+   
+    .sectiunea2 .box2,.box4{
+     font-size: 1.1rem;
+     width: 100vw;
+     height: 330px;
+     padding:10px 40px;
+  }
+
+  .sectiunea2 .box3{
+      margin: auto;
+      width: 300px;
+  }
+
+ 
+}
+/*sectiunea despre responsive queery*/
