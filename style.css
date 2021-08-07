@@ -168,7 +168,7 @@ opacity: .8;
     .sectiunea2{
      display: flex;
        background: url('fundal2.png') no-repeat center center/cover;
-        height: 1169px;
+        height: 1196px;
        
         flex-wrap: wrap;
     }
