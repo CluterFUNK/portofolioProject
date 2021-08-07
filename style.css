@@ -387,4 +387,24 @@ text-shadow: var(--primaryshadow);
 
  
 }
+
+
+@media screen and (max-width: 810px) {
+.sectiunea2 .box1{
+    font-size: 50px;
+}
+
+   .sectiunea2 .box2,.box4{
+       font-size: 1.2rem;
+       
+   }
+   .sectiunea2 .box2{
+       margin-bottom: 25px;
+   }
+.sectiunea2 .box4{
+    margin-top: 35px;
+}
+  }
+
+
 /*sectiunea despre responsive queery*/
