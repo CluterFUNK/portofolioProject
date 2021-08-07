@@ -270,12 +270,12 @@ text-shadow: var(--primaryshadow);
    
   @media screen and (max-width:415px){
     .sectiunea2 .box1{
-        font-size: 35px;
+        font-size: 30px;
       }
   }
   @media screen and (max-width:350px){
     .sectiunea2 .box1{
-        font-size: 30px;
+        font-size: 26px;
       }
   }
 
