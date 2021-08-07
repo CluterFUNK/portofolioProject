@@ -152,6 +152,16 @@ opacity: .8;
     }
   }
   
+  @media screen and (max-width: 810px) {
+    .sectiunea1 h1 {
+        font-size: 50px;
+      }
+     .sectiunea1 p{
+  font-size: 42px;
+      }
+
+  }
+
   @media screen and (max-width: 750px) {
     .sectiunea1 h1 {
         font-size: 33px;
