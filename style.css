@@ -342,12 +342,12 @@ text-shadow: var(--primaryshadow);
     .sectiunea2 .box2,.box4{
      font-size: 1rem;
      width: 100vw;
-     height: 240px;
+     height: 230px;
      padding:1px 40px;
     
   }
   .sectiunea2 .box4{
-      padding-top:25px ;
+      padding-top:45px ;
   }
 
   .sectiunea2 .box3{
