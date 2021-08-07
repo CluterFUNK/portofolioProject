@@ -361,7 +361,7 @@ text-shadow: var(--primaryshadow);
 @media screen and (max-width: 430px) {
    
     .sectiunea2 .box2,.box4{
-     font-size: 14px;
+     font-size: 1rem;
      width: 100vw;
      height: 285px;
     
@@ -378,9 +378,9 @@ text-shadow: var(--primaryshadow);
 @media screen and (max-width: 360px) {
    
     .sectiunea2 .box2,.box4{
-     font-size: 12px;
+     font-size: 14px;
      width: 100vw;
-     height: 345px;
+     height: 335px;
     
   }
 
