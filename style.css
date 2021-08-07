@@ -389,13 +389,13 @@ text-shadow: var(--primaryshadow);
 }
 
 
-@media screen and (min-width: 810px) {
+@media screen and (max-width: 810px) {
 .sectiunea2 .box1{
-    font-size: 37px;
+    font-size: 50px;
 }
 
    .sectiunea2 .box2,.box4{
-       font-size: 1rem;
+       font-size: 1.2rem;
        
    }
    .sectiunea2 .box2{
