@@ -401,10 +401,179 @@ text-shadow: var(--primaryshadow);
 .sectiunea3{
     background: url('fundal3.webp') no-repeat center center/cover;
     color: white;
-    height: 1000px;
-   display: flex;
-   justify-content: center;
+    height: 1150px;
+   flex-wrap: wrap;
 }
-.sectiunea3 h1{
-    padding-top: 300px;
+
+
+
+   .sectiunea3 .boxA{
+color: var(--primarycolor);
+text-shadow:var(--primaryshadow);
+   width: 100%;
+ height: 150px;
+ padding-top: 60px;
+ margin-bottom: 60px;
+ display: flex;
+justify-content: center;
+font-size: 80px;
+   }
+
+
+.sectiunea3 .boxe{
+    display: flex;
+ padding-bottom: 400px;
+margin: auto;
+flex-wrap: wrap;
+
+justify-content: space-evenly
 }
+.sectiunea3 .box10,.box11{
+    width: 550px;
+    text-align: center;
+    height: 450px;
+  
+}
+.box10 .textu10 a{
+    text-decoration: none;
+    color:var(--primarycolor);
+
+}
+
+
+.box11 .textu11 a{
+    text-decoration: none;
+    color:var(--primarycolor);
+}
+/*.sectiunea3 .box11{
+    width: 350px;
+    height: 300px;
+    padding:20px 50px; 
+    text-align: center;
+}*/
+
+.box10 .banner1 , .box11 .banner2{
+    margin-top:50px;
+    
+    
+}
+
+.sectiunea3 img{
+    border: 2px solid white;
+}
+
+
+@media screen and (min-width: 701px) {
+    .sectiunea3 .boxA {
+       font-size: 50px;
+     }
+    
+   }
+   
+   @media screen and (max-width: 700px) {
+     .sectiunea3 .boxA{
+         font-size: 45px;
+       }
+   }
+
+   @media screen and (max-width: 500px) {
+    .sectiunea3 .boxA{
+        font-size: 40px;
+      }
+    
+  }
+   
+  @media screen and (max-width:415px){
+    .sectiunea3 .boxA{
+        font-size: 30px;
+      }
+  }
+  @media screen and (max-width:350px){
+    .sectiunea3 .boxA{
+        font-size: 26px;
+      }
+  }
+/*sectiunea4*/
+
+  .sectiunea4{
+  
+  background-color:#3d3d5c ; 
+    height: 400px;
+   flex-wrap: wrap;
+}
+
+.sectiunea4 .textFinal{
+    color: var(--primarycolor);
+    text-shadow:var(--primaryshadow);
+       width: 100%;
+     height: 150px;
+     padding-top: 60px;
+     margin-bottom: 60px;
+     display: flex;
+    justify-content: center;
+    font-size: 80px;
+       }
+    
+
+.sectiunea4 .contentFinal{
+    display: flex;
+  flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+margin-top: 5px;
+  justify-content: center;
+}
+.sectiunea4 .p01{
+  
+    color: var(--primarycolor);
+    text-shadow:var(--primaryshadow);
+}
+.sectiunea4 .p02{
+  
+    color: var(--primarycolor);
+    text-shadow:var(--primaryshadow);
+}
+
+
+
+@media screen and (min-width: 701px) {
+    .sectiunea4 .textFinal {
+       font-size: 50px;
+     }
+   .sectiunea4 .p01,.p02{
+    font-size: 1.5rem;
+   }
+
+   }
+   
+   @media screen and (max-width: 700px) {
+     .sectiunea4 .textFinal{
+         font-size: 45px;
+       }
+      
+   }
+
+   @media screen and (max-width: 500px) {
+    .sectiunea4 .textFinal{
+        font-size: 40px;
+      }
+    
+  }
+   
+  @media screen and (max-width:415px){
+    .sectiunea4 .textFinal{
+        font-size: 30px;
+      }
+  }
+  @media screen and (max-width:350px){
+    .sectiunea4 .textFinal{
+        font-size: 26px;
+      }
+  }
+
+
+  .sectiunea4 .iconuri{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
