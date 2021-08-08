@@ -299,12 +299,13 @@ text-shadow: var(--primaryshadow);
    
   }
 
+
   @media screen and (max-width: 1001px) {
    
     .sectiunea2 .box2,.box4{
      font-size: 1.3rem;
      width: 100vw;
-     height: 240px;
+     height: 140px;
      padding:10px 40px;
    
   }
