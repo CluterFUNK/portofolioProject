@@ -15,6 +15,7 @@ html {
        1px 1px 0 #000;
   }
 
+
 /*nav bar code*/
 nav{
     background-color: black;
@@ -236,7 +237,8 @@ text-shadow: var(--primaryshadow);
 text-shadow: var(--primaryshadow);
 }*/
 
-/*sectiunea despre responsive queery*/
+
+/*sectiunea de responsive queery*/
 
 /*@media screen and (min-width: 1220) {
    
@@ -395,10 +397,12 @@ text-shadow: var(--primaryshadow);
  
 }
 
-
-
-
 /*sectiunea despre responsive queery*/
+
+
+
+
+/*sectiunea3*/
 .sectiunea3{
     background: url('fundal3.webp') no-repeat center center/cover;
     color: white;
@@ -446,12 +450,7 @@ justify-content: space-evenly
     text-decoration: none;
     color:var(--primarycolor);
 }
-/*.sectiunea3 .box11{
-    width: 350px;
-    height: 300px;
-    padding:20px 50px; 
-    text-align: center;
-}*/
+
 
 .box10 .banner1 , .box11 .banner2{
     margin-top:50px;
@@ -463,7 +462,7 @@ justify-content: space-evenly
     border: 2px solid white;
 }
 
-
+/*sectiunea3 media query*/
 @media screen and (min-width: 701px) {
     .sectiunea3 .boxA {
        font-size: 50px;
@@ -494,6 +493,10 @@ justify-content: space-evenly
         font-size: 26px;
       }
   }
+
+
+
+
 /*sectiunea4*/
 
   .sectiunea4{
@@ -536,7 +539,7 @@ margin-top: 5px;
 }
 
 
-
+/*sectiunea4 media query*/
 @media screen and (min-width: 701px) {
     .sectiunea4 .textFinal {
        font-size: 50px;
@@ -578,3 +581,4 @@ display: flex;
 justify-content: center;
 align-items: center;
   }
+/*pana ce the end*/
